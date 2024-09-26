@@ -1,4 +1,38 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
+
+START
+    Greet User 
+        Set Initial Values
+            Bottom and top of range of values to be guessed by User
+            Conditional Value: Number of guesses maximum === 3
+            Count Number of guesses remaining (Guess - Input Count)
+
+    LOOP
+    While Guesses Remaining >0 and <=3:
+     
+    Display "Choose a number between 1 and 10. You have 3 guesses."
+    Computer selects RandomNumber (1,10)
+        Repeat LOOP x3 or until Output === Input
+            User enters Input = integer (1,10)
+                
+        Incorporate Feedback
+            While Correct:
+                Display RandomNumber compared with Guess
+                Print "Congratulations!" and "Number of Guesses taken =  (value)"
+                Break LOOP
+
+            Else 
+                Display RandomNumber selected by computer AND print "Try again! You have # Guesses Remaining.'
+                Break Loop after Conditinoal Value Met
+                Then Display "Better Luck Next Time!"
+                Prompt: "Play Again?"
+                Display Buttons "Yes" "No"
+                    If "Yes" repeat Loop
+                    Else, end game
+                
+
+
+
 # ------------------------------------------------- #
 

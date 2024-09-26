@@ -1,4 +1,32 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
+FIND THE SPOT
+    Assumption - All users start at same point
+START
+    Set Location Variables
+        Item_1 = Location_1
+        Item_2 + Location_2 
+        Item_3 = Location_3
+        Item_4 = Location_4
+
+    Set Building Layout Variables
+    Location_1 = North
+    Location_2 = South
+    Location_3 = East
+    Location_4 = West
+    
+    LOOP
+
+    Prompt User's Input "For which item are you Looking?" (Item_1, Item_2, Item_3 or Item_4)
+    Validate User's Input
+    If valid:
+        Print: "Move [enter location related to the item entered]'
+        Break Loop
+    If invalid: 
+        Print: "That item is unavailable. Please select another item."
+        
+    
+
+
 # ------------------------------------------------- #
 
